@@ -397,10 +397,10 @@ singleuser:
       volumeNameTemplate: volume-{username}{servername}
       storageAccessModes: [ReadWriteOnce]
   image:
-    name: jupyterhub/k8s-singleuser-sample
-    tag: "3.0.3-0.dev.git.6306.h83f8ffdd"
-    #name: jgupta0700/sds-jhub-v2
-    #tag: "try7"
+    #name: jupyterhub/k8s-singleuser-sample
+    #tag: "3.0.3-0.dev.git.6306.h83f8ffdd"
+    name: jgupta0700/sds-jhub-v3
+    tag: "try7"
     pullPolicy:
     pullSecrets: []
   startTimeout: 300
